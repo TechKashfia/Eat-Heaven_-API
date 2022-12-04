@@ -1,0 +1,56 @@
+.title-style{
+
+    font-weight: 900;
+    font-size: 18px;
+    background-color: rgb(212, 196, 255);
+
+}
+
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.card{
+
+margin: 15px;
+
+}
+
+
+.navbar-brand{
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 50px;
+color:rgb(247, 247, 247)
+}
+
+.search-box{
+text-align: center;
+margin-bottom: 20px;
+padding: 10px;
+
+}
+
+.collapse ul li a:hover{
+
+    color: rgb(185, 13, 13);
+    background: rgb(101, 207, 137);
+
+}
+
+.collapse ul li a{
+    font-family: cursive ;
+    font-size: 15px;
+    
+}
+ .navbar-nav {
+   
+    color: aliceblue
+    ;
+    text-shadow: 0rem;
+ }
+
+ .nav-link active {
+    border-color: brown;
+ }
